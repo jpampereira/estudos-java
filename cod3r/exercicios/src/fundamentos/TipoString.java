@@ -1,5 +1,7 @@
 package fundamentos;
 
+// Para variáveis do tipo char, utilizamos aspas simples e para Strings utilizamos aspas duplas
+
 public class TipoString {
     public static void main(String[] args) {
         System.out.println("Olá pessoal".charAt(2));
