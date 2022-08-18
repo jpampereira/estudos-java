@@ -7,7 +7,7 @@ public class ClasseVsObjeto {
      * - Objeto é toda e qualquer coisa abstrata ou física do nosso dia-a-dia, como por exemplo, um carro, uma caneta,
      * um banco, uma pessoa, etc.
      *
-     * - Tod objeto é formado por atributos (características) e métodos (coisas que se pode fazer).
+     * - Tod objeto é formado por atributos (características) e métodos (ações).
      *      - Exemplo: O objeto carro possui, entre vários outros, o atributo "cor" e o método "frear".
      *
      * - Anatomia de uma classe:
@@ -52,5 +52,10 @@ public class ClasseVsObjeto {
      *      - Atributos e métodos podem ser tanto da Classe quanto do Objeto (palavra reservada "static" - Será visto
      *      mais a frente).
      *      - Para acessar um membro: objeto.membro
+     *
+     * - Outro benefício da OO é o acoplamento entre atributos e métodos. Anteriormente ao paradigma, os atributos e
+     * métodos ficavam espalhados dentro do código sem nenhuma relação de fato. Quando agrupados em uma mesma classe,
+     * estabelecer uma relação entre eles é muito mais simples (até mesmo para entendimento de quem estiver lendo o
+     * código!).
      */
 }
