@@ -4,17 +4,16 @@ public class Produto {
     // Atributos
     String nome;
     double preco;
-    double desconto;
+    static double desconto = 0.25;
 
     // Métodos Construtores
     Produto() {
 
     }
 
-    Produto(String nomeInicial, double precoInicial, double descontoInicial) {
+    Produto(String nomeInicial, double precoInicial) {
         nome = nomeInicial;
         preco = precoInicial;
-        desconto = descontoInicial;
     }
 
     // Métodos
