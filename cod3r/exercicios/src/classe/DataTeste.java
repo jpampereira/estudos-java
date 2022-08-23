@@ -10,6 +10,6 @@ public class DataTeste {
         String dataFormatada1 = d1.obterDataFormatada();
 
         System.out.println(dataFormatada1);
-        System.out.println(d2.obterDataFormatada());
+        d2.imprimirDataFormatada();
     }
 }
