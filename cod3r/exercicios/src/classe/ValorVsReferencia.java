@@ -13,6 +13,15 @@ package classe;
  *      - Por isso, quando tentamos imprimir um objeto apenas inserindo o nome da variável que o armazena, um valor
  *      estranho aparece na tela, pois ela não armazena valores, e sim um endereço que indica onde os valores estão
  *      armazenados.
+ *
+ * - Quando passamos uma variável como parâmetro de um método, esse valor é duplicado para uma variável cópia visível
+ * apenas em seu escopo (variável declarada na assinatura do método). Sabendo disso...
+ *      - Quando alteramos uma variável que armazena um valor primitivo, a alteração não será sentida fora do método.
+ *      Há não ser que o valor seja retornado pelo método e armazenado nessa mesma variável);
+ *      - Já no caso de Objetos, a alteração será sentida, pois se estamos duplicando o valor da variável passada como
+ *      parâmetro, estamos duplicando o endereço de memória onde aquele objeto está armazenado. Logo, se alterarmos
+ *      algum atributo do Objeto durante a execução do método, as alterações serão percebidas fora do escopo, mesmo que
+ *      esses valores não sejam retornados.
  */
 
 public class ValorVsReferencia {
